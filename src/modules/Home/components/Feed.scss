@@ -1,0 +1,129 @@
+.filter-wrapper {
+  padding-left: 70px;
+  padding-right: 70px;
+  display: block;
+  height: 50px;
+  background-color: white;
+  .tag {
+    display: inline-block;
+    padding-right: 30px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 30px;
+    cursor: pointer;
+    position: relative;
+    div {
+      position: absolute;
+      border-radius: 10px;
+      position: absolute;
+      background-color: white;
+      padding: 10px;
+      margin-top: 8px;
+      box-shadow: 0 3px 31px 0 rgba(0,0,0,0.09);
+      width: 100px;
+      p {
+        margin: 0px;
+        margin-bottom: 10px;
+        cursor: pointer;
+        transition: all 0.5s;
+        &:hover{
+          color: grey;
+        }
+        &:last-of-type {
+          margin-bottom: 0px;
+        }
+      }
+    }
+  }
+  .selected {
+    background-color: lavender;
+  }
+  div {
+    float: right;
+    padding-right: 70px;
+  }
+}
+.selected-text {
+  margin: 0px;
+  height: 50px;
+  padding-top: 25px;
+  text-align: center;
+  background-color: lavender;
+}
+.feed-wrapper {
+  background-color: whitesmoke;
+  padding-left: 70px;
+  padding-right: 70px;
+  display: block;
+  h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0px;
+    font-size: 25px;
+  }
+  .item-wrapper {
+    .item {
+      display: inline-block;
+      width: calc(25% - 20px);
+      margin: 10px;
+      height: 200px;
+      background-color: white;
+      box-shadow: 0 3px 31px 0 rgba(0,0,0,0.09);
+      vertical-align: top;
+      div {
+        .name{
+          display: inline-block;
+          margin-left: 30px;
+          margin-bottom: 105px;      
+        }
+        .price {
+          float: right;
+          margin-right: 30px;
+
+        }
+      }
+      button {
+        float: right;
+        margin-right: 30px;
+        border-radius: 30px;
+        border: solid 1px yellow;
+        color: yellow;
+        font-size: 15px;
+        padding: 10px;
+        cursor: pointer;
+        padding-left: 40px;
+        padding-right: 40px;
+        font-weight: 600;
+        outline: none;
+        background-color: white;
+      }
+      button:disabled {
+        background-color: lavender;
+        color: lavender;
+        border: none;
+      }
+    }
+  }
+}
+
+#change-btn {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#add {
+  float: unset;
+  border: none;
+  padding: 0px;
+  margin-right: 0px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+#minus {
+  float: unset;
+  border: none;
+  padding: 0px;
+  margin-right: 0px;
+  padding-right: 15px;
+  padding-left: 15px;
+}

@@ -1,0 +1,33 @@
+.header-wrapper {
+  display: block;
+  background-color: yellow;
+  height: 70px;
+  padding-left: 70px;
+  padding-right: 70px;
+  text-align: center;
+  color: white;
+  font-weight: 500;
+  div {
+    display: inline-block;
+    border-bottom: 2px solid white;
+    input {
+      border: none;
+      margin-top: 15px;
+      width: 300px;
+      outline: none;
+      height: 40px;
+      display: inline-block;
+      font-size: 14px;
+      background-color: yellow;
+      ::placeholder{
+        color: white;
+      }
+    }
+    img {
+      width: 12px;
+      margin-right: 10px;    }
+  }
+  span {
+    margin-left: 30px;
+  }
+}
