@@ -1,5 +1,5 @@
 # Food-Order-Managment-System
-Manage, Search, Delete and Add the Orders
+Manage,Search,Sort,Add and Delete the Orders
 
 -Project setup instructions
 
