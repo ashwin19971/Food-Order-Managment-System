@@ -16,6 +16,4 @@ Manage,Search,Sort,Add and Delete the Orders
 ![4](https://user-images.githubusercontent.com/34717765/70387684-fbb2a380-19cd-11ea-8f9e-4ceae9fffc59.png)
 ![5](https://user-images.githubusercontent.com/34717765/70387685-fbb2a380-19cd-11ea-8134-8fbf6bce3a64.png)
 ![6](https://user-images.githubusercontent.com/34717765/70387702-374d6d80-19ce-11ea-9bec-4128e8e988d6.png)
-![7](https://user-images.githubusercontent.com/34717765/70387703-374d6d80-19ce-11ea-896f-4c255aadf15e.png)
-![8](https://user-images.githubusercontent.com/34717765/70387704-37e60400-19ce-11ea-8a13-1cdeddd02e4d.png)
 ![9](https://user-images.githubusercontent.com/34717765/70387706-37e60400-19ce-11ea-9073-b89c925baf7a.png)
